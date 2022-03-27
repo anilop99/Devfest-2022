@@ -1,0 +1,58 @@
+ 
+#display{
+  width: 300px;
+  padding:5px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color:#e5dcec;
+  color:#302d3a;}
+  #display, #settings {margin-top: 5px;}
+  #modify {margin-bottom: 5px;
+}
+#rcorners {
+  border-radius: 25px;
+}
+* {
+  background-color:#dbd3e0;
+}
+
+.chartCard {
+  color:black;
+  height:500px;
+}
+.circle {
+  color:black;
+}
+.chartBox {
+  text-align:center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.button {
+  border-radius: 12px;
+  transform: scale(1.5);
+  border: none;
+}
+input[type=number] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 25px 20px;
+  box-sizing: border-box;
+  
+  -moz-appearance: textfield;
+}
+
+.flexbox-container{
+    margin-top:20%;
+    position:relative;
+    margin-top:auto;
+    margin:auto;
+    flex-grow:2;
+    align-items:center;
+    display:flex;
+    background:none;
+    justify-content: space-around;
+}
+  

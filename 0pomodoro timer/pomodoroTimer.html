@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel = "stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Pomodoro Timer</title>
+  </head>
+  <body>
+    <div class="chartCard">
+      <div class="chartBox">
+        <canvas id="myChart"></canvas>
+        <input id="setTime" type="number" placeholder= "minutes" name="" min="1"></id>
+        <div class = "flexbox-container">
+          <button class="button" id="start"><span class="material-icons">
+            play_circle
+          </span></button>
+          <button class="button" id="stop" disabled="true"><span class="material-icons">
+            stop_circle
+            </span></button>
+          <button class="button" id="reset" disabled="true"><span class="material-icons">
+            restart_alt
+          </span></button>
+        </div>
+      </div>
+    </div>
+    <script src="chart.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

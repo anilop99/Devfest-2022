@@ -1,0 +1,19 @@
+{
+  "name": "Timer!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "A cute timer, hopefully",
+  "icons":{
+    "16": "./images/icon16.png",
+    "48": "./images/icon48.png",
+    "128": "./images/icon128.png"
+  },
+  "action": {
+    "default_title": "Get Ready to Study!",
+    "default_popup": "pomodoroTimer.html"
+  },
+  "permissions":[
+    "alarms",
+    "notifications"
+  ]
+}
